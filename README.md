@@ -76,45 +76,32 @@ PassBi centralise la gestion des tickets, opérateurs, lignes, transactions et f
    ```bash
    git clone https://github.com/ton-org/passbi-pwa.git
    cd passbi-pwa
-Installer les dépendances :
-
-bash
-Copier
-Modifier
-npm install
-Configurer les variables d’environnement :
-
-.env.local avec les clés Supabase : SUPABASE_URL, SUPABASE_ANON_KEY
+2. **Installer les dépendances :**
+  ```bash
+   npm install
+  
+3. **Configurer les variables d’environnement :**
+   ```bash
+   .env.local avec les clés Supabase : SUPABASE_URL, SUPABASE_ANON_KEY
 
 Démarrer en développement :
 
-bash
 Copier
 Modifier
 npm run dev
 Accéder à l’application :
 http://localhost:3000
 
-✅ À venir
-Mise en place des tests unitaires et end-to-end
-
-Déploiement PWA optimisé (Vercel, Netlify)
-
-Setup CI/CD pour build automatique
-
-Documentation API et schémas SQL
+bash
 
 🤝 Contribuer
+```bash
 Forkez ce repo
-
 Créez votre branche (git checkout -b feature/ma-feature)
-
 Commitez vos changements (git commit -m 'feat: ma nouvelle fonctionnalité')
-
 Poussez la branche (git push origin feature/ma-feature)
-
 Ouvrez une Pull Request !
-
+bash
 📄 Licence
 Projet sous licence MIT.
 
